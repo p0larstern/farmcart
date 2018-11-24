@@ -1,0 +1,65 @@
+    /**{outline:1px solid blue;}*/
+body{box-sizing: border-box;overflow-x: hidden;}
+.slide-img{
+    width: 100%;
+    height:100vh;
+    filter: grayscale(20%) saturate(2);
+
+
+}
+.header-top{
+    background-color: rgba(0,0,0,0.4);
+    color: black;
+}
+
+.navbar{
+    background-color: rgba(0,0,0,0.6) !important;
+
+    /*color: black;*/
+    /*height:10vh;*/
+    width: 70%;
+    left: 50%;
+    transform: translate(-50%,-100%);
+    /*background-color:rgba(255,255,255,0.3) !important;*/
+}
+.navbar::before{
+    content: "";
+    /*border:4px solid rgba(0,0,0,0.8);*/
+    filter: blur(5px);
+    display: block;
+    width:100%;
+    position: absolute;
+    top: -5%;
+    left:0;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width:100%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+    background-color: rgba(0,0,0,1) !important;
+}
+.carousel-caption h2{
+    position: absolute;
+    top:-50vh;
+    overflow: hidden;
+    letter-spacing: 8px;
+    border-right: 2px solid white;
+    white-space: nowrap;
+    margin:auto; 
+    animation: type 4s steps(50),caret 1s infinite;
+}
+
+.card{
+    margin-top:2em;
+    margin-bottom:2em;
+    padding:1.5em 1em;
+
+}
+.footer{
+    background-color:rgba(0,0,0,0.9);
+    color:#caccce;
+}

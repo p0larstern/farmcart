@@ -1,0 +1,131 @@
+	/* *{outline:1px solid blue;} */
+body{box-sizing: border-box;overflow-x: hidden;}
+.slide-img{
+    width: 100%;
+    height:45vh;
+    filter: grayscale(60%) saturate(2) blur(2px);
+
+
+}
+
+.bg{
+    height: 45vh;
+    background-color: rgba(13,75,70);
+}
+
+.navbar{
+    background-color: rgba(13,75,70) !important;
+
+    /*color: black;*/
+    height:10vh;
+    width: 100%;
+    /* left: 50%; */
+    /* transform: translate(-50%,-100%); */
+    /*background-color:rgba(255,255,255,0.3) !important;*/
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width:100%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+    background-color: rgba(13,75,70) !important;
+}
+/* .carousel-caption h2{
+    position: absolute;
+    top:-50vh;
+    overflow: hidden;
+    letter-spacing: 8px;
+    border-right: 2px solid white;
+    white-space: nowrap;
+    margin:auto; 
+    animation: type 4s steps(50),caret 1s infinite;
+} */
+.section{
+    /*height:100vh;*/
+    padding:5rem 2.5rem;
+    margin:0;
+   
+}
+.section:nth-child(even){
+     background-color:#e5e6e8;
+}
+.section-img,.section-text{
+    padding: 2.5rem;
+}
+.thumb{
+    width:75%;
+    height:75%; 
+    margin:10%;   
+}
+.section-text h2{
+    padding: 1.5rem;
+    margin:3rem;
+    letter-spacing: 10px;
+}
+.section-text p{
+    letter-spacing: .6px;
+    line-height: 30px;
+    font-style: monospace;
+    font-size:1rem;
+}
+.category{
+    margin:1.2em;
+}
+.card{
+    padding: 1.2em ;
+}
+.card-img{
+    padding:.8em;
+}
+.footer{
+    bottom: 0;
+    background-color: rgba(13,75,70);
+    color:#caccce;
+    height: 20vh;
+}
+
+#logo{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 80%;
+    width: 25%;
+}
+
+#header-text{
+    font-size: 3rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th{
+    background-color: rgba(13,75,70);
+    color: white;
+}
+
+#seller-inventory {
+    margin: 5em auto;
+}
+
+@keyframes type{
+    from{width: 0ch}
+    to{width: 40ch; }
+}
+@keyframes caret{
+    from,to{border-color:transparent;}
+    50%{border-color:white;}
+}
