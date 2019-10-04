@@ -13,7 +13,7 @@
 	<?php include "typeeffect.php" ?>
 </head>
 <body>
-	<div class="carousel slide" data-ride="carousel" id=carousel>
+	<div  class="carousel slide" data-ride="carousel" id=carousel>
 		
 		<div class="carousel-inner">	
 			<div class="carousel-item active">	
